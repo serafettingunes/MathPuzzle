@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MathPuzzle.ResimBilgi">
+    <ContentPage.Content>
+        <StackLayout  x:Name="stak" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="#DBDB2E">
+
+
+
+
+            <Image x:Name="imagem" StyleClass="imagem" Margin="45,3,45,5" HeightRequest="600" WidthRequest="600" Source="matpuzzle.png"  />
+
+
+
+            <Button x:Name="btnGeri" Clicked="btnGeri_Clicked"  Margin="43,-75,47,0" HeightRequest="55"  TextColor="White"  BackgroundColor="#049CFF" CornerRadius="25" FontSize="25" Text="Geri" FontFamily="Nova" />
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MathPuzzle.mathPuzzleGiris">
+    <ContentPage.Content>
+        
+        
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#DBDB2E">
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Orientation="Vertical">
+                <Button CornerRadius="9" BackgroundColor="#049CFF" x:Name="btnOyna" Clicked="btnOyna_Clicked" HeightRequest="65" WidthRequest="200" FontSize="22" Text="Oyna" />
+                <Button CornerRadius="9" BackgroundColor="#049CFF" x:Name="btnBilgi" Clicked="btnBilgi_Clicked" HeightRequest="65" WidthRequest="200" FontSize="22" Text="Bilgi " />
+                <!--<Button CornerRadius="9" BackgroundColor="#049CFF" x:Name="btnAyarlar" Clicked="btnAyarlar_Clicked" HeightRequest="65" WidthRequest="200" FontSize="20" Text="Ayarlar " />-->
+                <Button  CornerRadius="9" BackgroundColor="#049CFF" x:Name="btnCikis" Clicked="btnCikis_Clicked" HeightRequest="65" WidthRequest="200" FontSize="22" Text="Çıkış " />
+            </StackLayout>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

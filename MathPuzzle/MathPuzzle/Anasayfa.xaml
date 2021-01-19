@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MathPuzzle.Anasayfa"> 
+    <ContentPage.Content>
+        <StackLayout x:Name="stak" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="#DBDB2E">
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Entry x:Name="entry11" TextChanged="entry11_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="2,15,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry12"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,15,0,0" Placeholder="" HeightRequest="45" WidthRequest="45" TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521" IsReadOnly="False"/>
+                <Entry x:Name="entry13" TextChanged="entry13_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,15,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry14"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,15,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry15" TextChanged="entry15_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,15,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label x:Name="lbl16"  HeightRequest="45" WidthRequest="100"  TextColor="Black" FontSize="25" Margin="0,15,0,0" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Entry x:Name="entry21"    MaxLength="2" Text="" Margin="2,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry22" TextChanged="entry22_TextChanged"    MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45" TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry23"     MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry24" TextChanged="entry24_TextChanged"    MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry25"    MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry26" TextChanged="entry26_TextChanged"   MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label x:Name="lbl27" HeightRequest="45" WidthRequest="100"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Entry x:Name="entry31" TextChanged="entry31_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="2,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry32"   FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45" TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry33" TextChanged="entry33_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry34"   FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry35" TextChanged="entry35_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label x:Name="lbl36" HeightRequest="45" WidthRequest="100"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Entry FlexLayout.AlignSelf="Center"  x:Name="entry41"    MaxLength="2" Text="" Margin="2,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry FlexLayout.AlignSelf="Center"  x:Name="entry42" TextChanged="entry42_TextChanged"   MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45" TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry  FlexLayout.AlignSelf="Center"  x:Name="entry43"     MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry FlexLayout.AlignSelf="Center"  x:Name="entry44" TextChanged="entry44_TextChanged"    MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry FlexLayout.AlignSelf="Center"  x:Name="entry45"    MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry FlexLayout.AlignSelf="Center"  x:Name="entry46" TextChanged="entry46_TextChanged"   MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label x:Name="lbl47" HeightRequest="45" WidthRequest="100"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+            </StackLayout>
+
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Entry x:Name="entry51" TextChanged="entry51_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="2,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry52"   FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45" TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry53" TextChanged="entry53_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry54"   FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Entry x:Name="entry55" TextChanged="entry55_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label x:Name="lbl56" HeightRequest="45" WidthRequest="100"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+            </StackLayout>
+
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Label x:Name="lbl61" Text="" HeightRequest="45" WidthRequest="45"  TextColor="Black" FontSize="25" Margin="2,2,0,0" />
+                <Entry x:Name="entry62" TextChanged="entry62_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label x:Name="lbl63" Text="" HeightRequest="45" WidthRequest="45"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+                <Entry x:Name="entry64" TextChanged="entry64_TextChanged"  FlexLayout.AlignSelf="Center"  MaxLength="2" Text="" Margin="0,2,0,0" Placeholder="" HeightRequest="45" WidthRequest="45"  TextColor="#049CFF" FontSize="24"  BackgroundColor="#3F3521"/>
+                <Label  x:Name="lbl65" HeightRequest="45" WidthRequest="100"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Start" VerticalOptions="Start" Orientation="Horizontal">
+                <Label Text="" HeightRequest="45" WidthRequest="45"  TextColor="Black" FontSize="24" Margin="2,2,0,0" />
+               
+                <Label x:Name="lbl72" HeightRequest="45" WidthRequest="45"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+                <Label Text="" HeightRequest="45" WidthRequest="45"  TextColor="Black" FontSize="24" Margin="2,2,0,0" />
+                <Label x:Name="lbl74"  HeightRequest="45" WidthRequest="45"  TextColor="Black" FontSize="25" Margin="0,2,0,0" />
+            </StackLayout>
+            <StackLayout>
+                <Image x:Name="imageX" Margin="0,-40 , 0 ,0" />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center" >
+
+              
+                <Button Clicked="btnTekrar_Clicked" BackgroundColor="#049CFF" x:Name="btnTekrar" IsVisible="False" Margin="0,20,0,0" FontSize="20" HeightRequest="100"  WidthRequest="150" TextColor="#3F3521" Text="Tekrar Oyna" />
+                <Button Clicked="btnCikis_Clicked" BackgroundColor="#049CFF"  x:Name="btnCikis" IsVisible="False" Margin="0,20,0,0" FontSize="20"  HeightRequest="100" WidthRequest="150"  TextColor="#3F3521" Text="Çıkış" />
+            </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

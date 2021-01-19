@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MathPuzzle.BilgiSayfasi">
+    <ContentPage.Content>
+        <StackLayout  x:Name="stak" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="#DBDB2E">
+
+            <Label Text="Nasıl Oynanır?" x:Name="lblBaslik"  Margin="50,8,45,0"  FontSize="25" TextColor="Black"  FontFamily="Nova"/>
+
+
+            <!--<Image x:Name="imagem" StyleClass="imagem" Margin="45,3,45,5" HeightRequest="235" WidthRequest="435" Source="resim.jpg"  />-->
+
+
+            <ScrollView   HeightRequest="520" WidthRequest="200" BackgroundColor="#DBDB2E">
+                <Button x:Name="btnYazi"   Margin="47,3,47,0" HeightRequest="950" WidthRequest="200"  TextColor="White"  BackgroundColor="#049CFF" CornerRadius="25" FontSize="25" Text="Oyunu oyna diyerek açtığınızda sizi içi boş kareler karşılayacaktır. En sağda ve en altta o karelerin sonuçları yazılıdır. Size toplama , çıkarma ,çarpma ve bölme işaretleri verilecektir. Siz sadece o boş kareleri işlem önceliğine göre doldurmalısınız.Kareler içindeki sayılar 1 ile 10 arasındaki sayılardan oluşmaktadır.10 dahildir. Eğer karenin rengi beyaz olursa o sayı doğru bir sayıdır. Ama karenin rengi değişmiyorsa doğru sayıyı bulmanız gerekiyor. Aşağıdaki butona tıklarsanız bitmiş bir oyun göreceksiniz. Örnek olarak buna bakabilirsiniz." FontFamily="Nova" >
+
+                </Button>
+            </ScrollView>
+            <Button x:Name="btnileri" Clicked="btnileri_Clicked"  Margin="43,3,47,0" HeightRequest="55"  TextColor="White"  BackgroundColor="#049CFF" CornerRadius="25" FontSize="25" Text="İleri" FontFamily="Nova" />
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
